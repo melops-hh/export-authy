@@ -1,8 +1,8 @@
 # Export Authy TOTP codes into Ente Auth
 
-## iOS 
+### iOS 
 * Follow [this](https://gist.github.com/gboudreau/94bb0c11a6209c82418d01a59d958c93?permalink_comment_id=5298931#gistcomment-5298931) guid by [AlexTech01](https://gist.github.com/AlexTech01) to dump and decrypt all your totp seed codes:
-    * Start [mitmprocy](https://mitmproxy.org/) `mitmweb --allow-hosts "api.authy.com"`
+    * Start [mitmprocy](https://mitmproxy.org/) `$ mitmweb --allow-hosts "api.authy.com"`
     * Set proxy on the phone
     * Download and trust the mitmproxy certificate
     * Log into your Authy account (must be logged out - may have to uninstall first)
